@@ -28,5 +28,4 @@ public class CFO implements BudgetHandler {
         System.out.println(String.format("%d太多了，回去好好看看能不能缩减一下",amount));
         return false;
     }
-
 }

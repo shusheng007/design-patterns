@@ -17,11 +17,14 @@ public class DogWang2Client {
         //构建执行计划
         invoker.addCommands(tuoXiongZhaoCommand);
         invoker.addCommands(tuoKuZiCommand);
+        //执行命令
+        invoker.executeCommand();
 
         //生成跳舞命令
         YangMiReceiver yangMiReceiver = new YangMiReceiver();
         TiaoLaWuCommand tiaoLaWuCommand = new TiaoLaWuCommand(yangMiReceiver, "半小时");
         //构建执行计划
+        invoker.clearCommand();
         invoker.addCommands(tiaoLaWuCommand);
 
         //执行命令

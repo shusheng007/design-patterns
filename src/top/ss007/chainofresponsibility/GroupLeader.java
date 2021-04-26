@@ -27,6 +27,4 @@ public class GroupLeader implements BudgetHandler {
         System.out.println(String.format("%d超出GroupLeader权限,请更高级管理层批复",amount));
         return nextHandler.handle(amount);
     }
-
-
 }
