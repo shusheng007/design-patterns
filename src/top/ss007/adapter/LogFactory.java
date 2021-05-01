@@ -8,6 +8,5 @@ package top.ss007.adapter;
  * description:
  */
 public interface LogFactory {
-
     void debug(String tag,String message);
 }

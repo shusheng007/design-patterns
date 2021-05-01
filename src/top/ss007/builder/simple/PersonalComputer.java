@@ -18,6 +18,26 @@ public class PersonalComputer {
         this.display = builder.display;
     }
 
+    public String getCpu() {
+        return cpu;
+    }
+
+    public String getRam() {
+        return ram;
+    }
+
+    public int getUsbCount() {
+        return usbCount;
+    }
+
+    public String getKeyboard() {
+        return keyboard;
+    }
+
+    public String getDisplay() {
+        return display;
+    }
+
     public static class Builder {
         private String cpu;//必须
         private String ram;//必须

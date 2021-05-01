@@ -8,6 +8,5 @@ package top.ss007.adapter;
  * description:
  */
 public interface NbLogger {
-
     void d(int priority, String message, Object ... obj);
 }
