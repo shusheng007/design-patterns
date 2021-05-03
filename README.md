@@ -117,6 +117,9 @@ Process finished with exit code 0
 [秒懂设计模式之策略模式（Strategy Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/88085445)
 
 9. 状态模式（State）
+
+[秒懂设计模式之状态模式（State Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/116375477) 
+
 10. 模板方法模式（Template method）
 
 [秒懂设计模式之模板方法模式（Template Method Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/88832293)

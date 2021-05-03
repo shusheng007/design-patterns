@@ -8,6 +8,7 @@ import top.ss007.command.DogWang2Client;
 import top.ss007.decorator.DecoratorClient;
 import top.ss007.factory.FactoryPatternService;
 import top.ss007.proxy.ProxyClient;
+import top.ss007.state.StateClient;
 import top.ss007.strategy.StrategyClient;
 import top.ss007.template.TemplateClient;
 
@@ -66,6 +67,9 @@ public class Main {
                         break;
                     case DECORATOR:
                         runDecorator();
+                        break;
+                    case STATE:
+                        runState();
                         break;
                     default:
                         break;
@@ -156,6 +160,12 @@ public class Main {
         TemplateClient templateClient = new TemplateClient();
         templateClient.startLivePlay();
     }
+
+    //状态模式
+    private static void runState(){
+        StateClient stateClient = new StateClient();
+        stateClient.buyKeyboard();
+    }
     //endregion
 
 
@@ -173,7 +183,8 @@ public class Main {
         CHAIN_OF_RESPONSIBILITY,
         STRATEGY,
         TEMPLATE,
-        PROXY;
+        PROXY,
+        STATE;
 
         public static List<String> patterList() {
             return Arrays.stream(DesignPatternName.values()).map(new Function<DesignPatternName, String>() {

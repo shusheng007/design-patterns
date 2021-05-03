@@ -10,16 +10,20 @@ package top.ss007.strategy;
  */
 public class StrategyClient {
 
-    private int calculateTrafficFee(CalculateStrategy strategy, int distance){
-        return strategy.calculateTrafficFee(distance);
-    }
-
     public void listFeeToTianJinEye(){
-        System.out.println(String.format("乘坐公交车到天津之眼的花费为：%d块人民币",
-                calculateTrafficFee(new ByBus(),10)));
-        System.out.println(String.format("乘坐滴滴快车到天津之眼的花费为：%d块人民币",
-                calculateTrafficFee(new ByDiDiExpress(),10)));
+        TransportFeeCalculator calculator =new TransportFeeCalculator();
+
+        calculator.setCalculateStrategy(new BySharedBicycle());
         System.out.println(String.format("骑共享单车到天津之眼的花费为：%d块人民币",
-                calculateTrafficFee(new BySharedBicycle(),10)));
+                calculator.getTransportFee(10)));
+
+        calculator.setCalculateStrategy(new ByBus());
+        System.out.println(String.format("乘坐公交车到天津之眼的花费为：%d块人民币",
+                calculator.getTransportFee(12)));
+
+        calculator.setCalculateStrategy(new ByDiDiExpress());
+        System.out.println(String.format("乘坐滴滴快车到天津之眼的花费为：%d块人民币",
+                calculator.getTransportFee(13)));
+
     }
 }
