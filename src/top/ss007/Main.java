@@ -5,6 +5,7 @@ import top.ss007.bridge.BridgeClient;
 import top.ss007.builder.BuilderPatternService;
 import top.ss007.chainofresponsibility.DogWang2Cor;
 import top.ss007.command.DogWang2Client;
+import top.ss007.composite.CompositeClient;
 import top.ss007.decorator.DecoratorClient;
 import top.ss007.factory.FactoryPatternService;
 import top.ss007.proxy.ProxyClient;
@@ -71,6 +72,9 @@ public class Main {
                     case STATE:
                         runState();
                         break;
+                    case COMPOSITE:
+                        runComposite();
+                        break;
                     default:
                         break;
                 }
@@ -134,6 +138,12 @@ public class Main {
         System.out.println("-----------------------------------");
         proxyClient.cuiHuaNiuIndictBos();
     }
+
+    //组合模式
+    private static void runComposite(){
+        CompositeClient compositeClient =new CompositeClient();
+        compositeClient.listOrgInfo();
+    }
     //endregion
 
     //region 行为型设计模式
@@ -178,6 +188,7 @@ public class Main {
         BRIDGE,
         ADAPTER,
         DECORATOR,
+        COMPOSITE,
 
         COMMAND,
         CHAIN_OF_RESPONSIBILITY,
