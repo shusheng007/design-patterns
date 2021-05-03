@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="" />
+    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：add lots of demos">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1rb0egRPfqBUQGJ26YtPBbv5H9g" />
   <component name="ProjectViewState">
@@ -14,8 +30,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/document" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Study\TestProjects\design-patterns" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.ss007.composite" />
+      <recent name="top.ss007.state" />
+      <recent name="top.ss007.bridge" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study\TestProjects\design-patterns\document" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -29,15 +62,8 @@
       <option name="MAIN_CLASS_NAME" value="top.ss007.Main" />
       <module name="design-patterns" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,28 +110,154 @@
       <option name="presentableId" value="Default" />
       <updated>1619229578533</updated>
       <workItem from="1619229582711" duration="1778000" />
+      <workItem from="1619237452544" duration="6320000" />
+      <workItem from="1619355597100" duration="5678000" />
+      <workItem from="1619426371413" duration="14257000" />
+      <workItem from="1619887257138" duration="1065000" />
+      <workItem from="1619930804224" duration="21832000" />
     </task>
+    <task id="LOCAL-00001" summary="feature：command pattern">
+      <created>1619428492449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619428492449</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feature：add uml">
+      <created>1619428738770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619428738770</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature：add lots of demos">
+      <created>1619886895774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619886895774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature：add state pattern demos">
+      <created>1620022429295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620022429296</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature：add composite pattern demos">
+      <created>1620029861577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620029861577</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="feature：command pattern" />
+    <MESSAGE value="feature：add uml" />
+    <MESSAGE value="feature：add lots of demos" />
+    <MESSAGE value="feature：add state pattern demos" />
+    <MESSAGE value="feature：add composite pattern demos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature：add composite pattern demos" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1619231366838">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="727" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1620026342464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620026342464" />
+    <state x="2647" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620019807410" />
+    <state x="677" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620028194988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620028194988" />
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619886105810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619886105810" />
+    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2" timestamp="1620029860499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029860499" />
+    <state x="2514" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022427713" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1620025790855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620025790855" />
+    <state width="938" height="90" key="GridCell.Tab.0.bottom" timestamp="1620029674917">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619231366838" />
-    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1619231366838">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="938" height="90" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674917" />
+    <state width="1774" height="80" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620020953525" />
+    <state width="938" height="90" key="GridCell.Tab.0.center" timestamp="1620029674917">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619231366838" />
-    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1619231366837">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="938" height="90" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674917" />
+    <state width="1774" height="80" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620020953525" />
+    <state width="938" height="90" key="GridCell.Tab.0.left" timestamp="1620029674917">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619231366837" />
-    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1619231366838">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="938" height="90" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674917" />
+    <state width="1774" height="80" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620020953524" />
+    <state width="938" height="90" key="GridCell.Tab.0.right" timestamp="1620029674917">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619231366838" />
+    <state width="938" height="90" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674917" />
+    <state width="1774" height="80" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620020953525" />
+    <state width="938" height="90" key="GridCell.Tab.1.bottom" timestamp="1620029674918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="90" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674918" />
+    <state width="938" height="90" key="GridCell.Tab.1.center" timestamp="1620029674917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="90" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674917" />
+    <state width="938" height="90" key="GridCell.Tab.1.left" timestamp="1620029674917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="90" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674917" />
+    <state width="938" height="90" key="GridCell.Tab.1.right" timestamp="1620029674918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="90" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029674918" />
+    <state x="184" y="92" key="MergeDialog" timestamp="1619355808219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="92" key="MergeDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619355808219" />
+    <state x="669" y="237" key="MultipleFileMergeDialog" timestamp="1619355810606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="237" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619355810606" />
+    <state x="941" y="230" key="RollbackChangesDialog" timestamp="1619961116695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="941" y="230" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619961116695" />
+    <state x="2435" y="129" key="SettingsEditor" timestamp="1619858754268">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2435" y="129" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619858754268" />
+    <state x="578" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620029863452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="578" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029863452" />
+    <state x="2498" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022431708" />
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1619952880967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619952880967" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620029891153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620029891153" />
   </component>
 </project>
