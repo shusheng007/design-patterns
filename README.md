@@ -87,6 +87,9 @@ Process finished with exit code 0
 [秒懂设计模式之桥接模式（Bridge Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/88370067)
 
 3. 组合模式（Composite）
+
+[秒懂设计模式之组合模式（Composite Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/116378002)
+
 4. 装饰者模式（Decorator）
 
 [秒懂设计模式之装饰者模式（Decorator Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/88780036)

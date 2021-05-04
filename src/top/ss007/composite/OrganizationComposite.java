@@ -1,5 +1,8 @@
 package top.ss007.composite;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Copyright (C) 2021 ShuSheng007
  * 完全享有此软件的著作权
@@ -10,8 +13,27 @@ package top.ss007.composite;
  */
 public class OrganizationComposite extends OrganizationComponent {
 
+    //很关键，这体现了组合的思想
+    private List<OrganizationComponent> organizations = new ArrayList<>();
+
     public OrganizationComposite(String name) {
         super(name);
+    }
+
+    @Override
+    public void add(OrganizationComponent organization) {
+        organizations.add(organization);
+    }
+
+    @Override
+    public OrganizationComponent getChild(String orgName) {
+        for (OrganizationComponent org : organizations) {
+            OrganizationComponent targetOrg = org.getChild(orgName);
+            if (targetOrg != null) {
+                return targetOrg;
+            }
+        }
+        return null;
     }
 
     @Override
@@ -22,5 +44,4 @@ public class OrganizationComposite extends OrganizationComponent {
         }
         return count;
     }
-
 }

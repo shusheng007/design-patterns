@@ -1,8 +1,5 @@
 package top.ss007.composite;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Copyright (C) 2021 ShuSheng007
  * 完全享有此软件的著作权
@@ -14,9 +11,6 @@ import java.util.List;
 public abstract class OrganizationComponent {
     private String name;
 
-    //很关键，这提现了组合的思想
-    protected List<OrganizationComponent> organizations = new ArrayList<>();
-
     public OrganizationComponent(String name) {
         this.name = name;
     }
@@ -25,19 +19,9 @@ public abstract class OrganizationComponent {
         return name;
     }
 
-    public void add(OrganizationComponent organization) {
-        organizations.add(organization);
-    }
+    public abstract void add(OrganizationComponent organization);
 
-    public OrganizationComponent getChild(String orgName){
-        for (OrganizationComponent org : organizations) {
-            OrganizationComponent targetOrg = org.getChild(orgName);
-            if (targetOrg != null) {
-                return targetOrg;
-            }
-        }
-        return null;
-    }
+    public abstract OrganizationComponent getChild(String orgName);
 
     public abstract int getStaffCount();
 
