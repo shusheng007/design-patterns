@@ -1,8 +1,5 @@
 package top.ss007.composite;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Copyright (C) 2021 ShuSheng007
  * 完全享有此软件的著作权
@@ -12,8 +9,6 @@ import java.util.List;
  * @description
  */
 public class OrganizationComposite extends OrganizationComponent {
-
-    private List<OrganizationComponent> organizations = new ArrayList<>();
 
     public OrganizationComposite(String name) {
         super(name);
@@ -28,24 +23,4 @@ public class OrganizationComposite extends OrganizationComponent {
         return count;
     }
 
-    public void addOrganization(OrganizationComponent organization) {
-        organizations.add(organization);
-    }
-
-    /**
-     * 通过组织名称获取组织
-     * @param orgName
-     * @return
-     */
-    public OrganizationComponent getOrganization(String orgName) {
-        for (OrganizationComponent org : organizations) {
-            if(org instanceof OrganizationComposite){
-               return  ((OrganizationComposite) org).getOrganization(orgName);
-            }
-            if(org.getName().equals(orgName)){
-                return org;
-            }
-        }
-        return null;
-    }
 }
