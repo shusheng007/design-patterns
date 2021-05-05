@@ -7,6 +7,7 @@ import top.ss007.chainofresponsibility.DogWang2Cor;
 import top.ss007.command.DogWang2Client;
 import top.ss007.composite.CompositeClient;
 import top.ss007.decorator.DecoratorClient;
+import top.ss007.facade.FacadeClient;
 import top.ss007.factory.FactoryPatternService;
 import top.ss007.flyweight.FlyweightClient;
 import top.ss007.proxy.ProxyClient;
@@ -79,6 +80,9 @@ public class Main {
                     case FLY_WEIGHT:
                         runFlyweight();
                         break;
+                    case FACADE:
+                        runFacade();
+                        break;
                     default:
                         break;
                 }
@@ -144,15 +148,21 @@ public class Main {
     }
 
     //组合模式
-    private static void runComposite(){
-        CompositeClient compositeClient =new CompositeClient();
+    private static void runComposite() {
+        CompositeClient compositeClient = new CompositeClient();
         compositeClient.listOrgInfo();
     }
 
     //享元模式
-    private static void runFlyweight(){
-        FlyweightClient flyweightClient=new FlyweightClient();
+    private static void runFlyweight() {
+        FlyweightClient flyweightClient = new FlyweightClient();
         flyweightClient.playChess();
+    }
+
+    //外观模式
+    private static void runFacade() {
+        FacadeClient facadeClient = new FacadeClient();
+        facadeClient.printReport();
     }
     //endregion
 
@@ -182,7 +192,7 @@ public class Main {
     }
 
     //状态模式
-    private static void runState(){
+    private static void runState() {
         StateClient stateClient = new StateClient();
         stateClient.buyKeyboard();
     }
@@ -200,6 +210,7 @@ public class Main {
         DECORATOR,
         COMPOSITE,
         FLY_WEIGHT,
+        FACADE,
 
         COMMAND,
         CHAIN_OF_RESPONSIBILITY,
