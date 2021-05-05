@@ -8,6 +8,7 @@ import top.ss007.command.DogWang2Client;
 import top.ss007.composite.CompositeClient;
 import top.ss007.decorator.DecoratorClient;
 import top.ss007.factory.FactoryPatternService;
+import top.ss007.flyweight.FlyweightClient;
 import top.ss007.proxy.ProxyClient;
 import top.ss007.state.StateClient;
 import top.ss007.strategy.StrategyClient;
@@ -74,6 +75,9 @@ public class Main {
                         break;
                     case COMPOSITE:
                         runComposite();
+                        break;
+                    case FLY_WEIGHT:
+                        runFlyweight();
                         break;
                     default:
                         break;
@@ -144,6 +148,12 @@ public class Main {
         CompositeClient compositeClient =new CompositeClient();
         compositeClient.listOrgInfo();
     }
+
+    //享元模式
+    private static void runFlyweight(){
+        FlyweightClient flyweightClient=new FlyweightClient();
+        flyweightClient.playChess();
+    }
     //endregion
 
     //region 行为型设计模式
@@ -189,6 +199,7 @@ public class Main {
         ADAPTER,
         DECORATOR,
         COMPOSITE,
+        FLY_WEIGHT,
 
         COMMAND,
         CHAIN_OF_RESPONSIBILITY,
