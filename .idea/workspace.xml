@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/facade/DeliverySys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/facade/FacadeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/facade/OrderSys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/facade/PaymentSys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/facade/ReportFacade.java" afterDir="false" />
+    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：add flyweight pattern">
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/prototype/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/prototype/PrototypeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/prototype/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/ss007/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/Main.java" afterDir="false" />
     </list>
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -123,6 +122,7 @@
       <workItem from="1619930804224" duration="28947000" />
       <workItem from="1620117383469" duration="4052000" />
       <workItem from="1620124314015" duration="14926000" />
+      <workItem from="1620310629750" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="feature：command pattern">
       <created>1619428492449</created>
@@ -224,9 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="157" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620124422453" />
-    <state x="727" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1620227179984">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="485" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1620311848919">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="485" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1620311848919" />
     <state x="727" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620227179984" />
     <state x="2647" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620019807410" />
     <state x="677" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620028194988">
@@ -237,9 +238,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619886105810" />
-    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2" timestamp="1620202670866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="106" y="74" width="1070" height="528" key="CommitChangelistDialog2" timestamp="1620312976512">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="106" y="74" width="1070" height="528" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1620312976512" />
     <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620202670866" />
     <state x="2514" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022427713" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1620025790855">
@@ -307,13 +309,15 @@
     </state>
     <state x="578" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620202673570" />
     <state x="2498" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022431708" />
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1620124319620">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="435" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1620310638313">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="435" y="228" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1620310638313" />
     <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620124319620" />
-    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620124365322">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="503" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620310670388">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="503" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1620310670388" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620124365322" />
   </component>
 </project>

@@ -10,6 +10,7 @@ import top.ss007.decorator.DecoratorClient;
 import top.ss007.facade.FacadeClient;
 import top.ss007.factory.FactoryPatternService;
 import top.ss007.flyweight.FlyweightClient;
+import top.ss007.prototype.PrototypeClient;
 import top.ss007.proxy.ProxyClient;
 import top.ss007.state.StateClient;
 import top.ss007.strategy.StrategyClient;
@@ -83,6 +84,9 @@ public class Main {
                     case FACADE:
                         runFacade();
                         break;
+                    case PROTOTYPE:
+                        runPrototype();
+                        break;
                     default:
                         break;
                 }
@@ -117,6 +121,13 @@ public class Main {
     private static void runSimpleFactory() {
         FactoryPatternService factory = new FactoryPatternService();
         factory.makePcUseSimpleFactory();
+    }
+
+    //原型模式
+    private static void runPrototype(){
+        PrototypeClient prototypeClient=new PrototypeClient();
+        prototypeClient.getReport();
+
     }
     //endregion
 
@@ -204,6 +215,7 @@ public class Main {
         FACTORY_METHOD,
         SIMPLE_FACTORY,
         BUILDER,
+        PROTOTYPE,
 
         BRIDGE,
         ADAPTER,
