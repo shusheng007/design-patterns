@@ -6,7 +6,6 @@ import java.util.List;
 public class Report implements Prototype {
     private List<String> parts;
 
-
     public Report() {
         this.parts = new ArrayList<>();
     }
@@ -28,7 +27,7 @@ public class Report implements Prototype {
 
     @Override
     public Prototype copy() {
-        List<String> cloneList= new ArrayList<>(parts);
+        List<String> cloneList = new ArrayList<>(parts);
         return new Report(cloneList);
     }
 }

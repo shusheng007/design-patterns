@@ -95,10 +95,17 @@ Process finished with exit code 0
 [秒懂设计模式之装饰者模式（Decorator Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/88780036)
 
 5. 外观模式（Facade）
+
+[秒懂设计模式之外观模式（Facade Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/116428733)
+
 6. 享元模式（Flyweight）
+
+[秒懂设计模式之享元模式（Flyweight Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/116424138)
+
 7. 代理模式（Proxy）
 
 [秒懂Java代理与动态代理模式（Proxy Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/80864854)
+
 ## 行为型（behavioral）
 行为型设计模式主要解决类或者对象直接互相通信的问题，共11个
 
