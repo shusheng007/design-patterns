@@ -62,7 +62,7 @@ Process finished with exit code 0
 
 4. 单例模式（Singleton）
 
-敬请期待
+[秒懂设计模式之单例模式（Singleton Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/117266347)
 
 5.  原型模式（Prototype）
 
