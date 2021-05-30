@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：add facade pattern">
+    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/singleton/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/singleton/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/singleton/Singleton4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/singleton/Singleton5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/singleton/Singleton6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/singleton/SingletonClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/prototype/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/prototype/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/ss007/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +45,18 @@
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Study\TestProjects\design-patterns" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study\TestProjects\design-patterns\document" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.ss007.singleton" />
       <recent name="top.ss007.flyweight" />
       <recent name="top.ss007.composite" />
       <recent name="top.ss007.state" />
       <recent name="top.ss007.bridge" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Study\TestProjects\design-patterns\document" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Study\TestProjects\design-patterns" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +128,10 @@
       <workItem from="1620124314015" duration="17776000" />
       <workItem from="1620393614788" duration="3027000" />
       <workItem from="1620553792513" duration="218000" />
-      <workItem from="1620741838227" duration="194000" />
+      <workItem from="1620741838227" duration="1653000" />
+      <workItem from="1621134734994" duration="1239000" />
+      <workItem from="1621952942774" duration="1573000" />
+      <workItem from="1622338025192" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="feature：command pattern">
       <created>1619428492449</created>
@@ -207,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620233038325</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feature：add facade pattern">
+      <created>1620742137101</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620742137101</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619886105810" />
-    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2" timestamp="1620400454113">
+    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2" timestamp="1620742119489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620400454113" />
+    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620742119489" />
     <state x="2514" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022427713" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1620025790855">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -301,6 +318,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="237" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620393690635" />
+    <state x="557" y="204" key="NewModule_or_Project.wizard" timestamp="1620742340142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="204" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620742340142" />
     <state x="941" y="230" key="RollbackChangesDialog" timestamp="1620400451958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,15 +331,15 @@
     </state>
     <state x="515" y="129" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620393662915" />
     <state x="2435" y="129" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620313781384" />
-    <state x="578" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620233112861">
+    <state x="578" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620742144306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="578" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620233112861" />
+    <state x="578" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620742144306" />
     <state x="2498" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022431708" />
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1620741854622">
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1622338068908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620741854622" />
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622338068908" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620393671103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -12,6 +12,7 @@ import top.ss007.factory.FactoryPatternService;
 import top.ss007.flyweight.FlyweightClient;
 import top.ss007.prototype.PrototypeClient;
 import top.ss007.proxy.ProxyClient;
+import top.ss007.singleton.SingletonClient;
 import top.ss007.state.StateClient;
 import top.ss007.strategy.StrategyClient;
 import top.ss007.template.TemplateClient;
@@ -87,6 +88,9 @@ public class Main {
                     case PROTOTYPE:
                         runPrototype();
                         break;
+                    case SINGLETON:
+                        runSingleton();
+                        break;
                     default:
                         break;
                 }
@@ -128,6 +132,12 @@ public class Main {
         PrototypeClient prototypeClient=new PrototypeClient();
         prototypeClient.getReport();
 
+    }
+
+    //单例模式
+    private static void runSingleton(){
+        SingletonClient singletonClient =new SingletonClient();
+        singletonClient.run();
     }
     //endregion
 
@@ -216,6 +226,7 @@ public class Main {
         SIMPLE_FACTORY,
         BUILDER,
         PROTOTYPE,
+        SINGLETON,
 
         BRIDGE,
         ADAPTER,
