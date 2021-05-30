@@ -66,7 +66,7 @@ Process finished with exit code 0
 
 5.  原型模式（Prototype）
 
-[秒懂设计模式之原型模式（Prototype Pattern](https://blog.csdn.net/ShuSheng0007/article/details/116463979)
+[秒懂设计模式之原型模式（Prototype Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/116463979)
 
 
 另外还有一个简单工厂模式，不在GOF 23种设计模式之中。

@@ -10,6 +10,7 @@ import top.ss007.decorator.DecoratorClient;
 import top.ss007.facade.FacadeClient;
 import top.ss007.factory.FactoryPatternService;
 import top.ss007.flyweight.FlyweightClient;
+import top.ss007.memento.MementoClient;
 import top.ss007.prototype.PrototypeClient;
 import top.ss007.proxy.ProxyClient;
 import top.ss007.singleton.SingletonClient;
@@ -90,6 +91,9 @@ public class Main {
                         break;
                     case SINGLETON:
                         runSingleton();
+                        break;
+                    case MEMENTO:
+                        runMemento();
                         break;
                     default:
                         break;
@@ -217,6 +221,11 @@ public class Main {
         StateClient stateClient = new StateClient();
         stateClient.buyKeyboard();
     }
+
+    private static void runMemento(){
+        MementoClient mementoClient=new MementoClient();
+        mementoClient.replayGame();
+    }
     //endregion
 
 
@@ -240,7 +249,8 @@ public class Main {
         STRATEGY,
         TEMPLATE,
         PROXY,
-        STATE;
+        STATE,
+        MEMENTO;
 
         public static List<String> patterList() {
             return Arrays.stream(DesignPatternName.values()).map(new Function<DesignPatternName, String>() {
