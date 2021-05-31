@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/memento/GameCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/memento/GameOriginator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/memento/GameProgressMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/memento/MementoClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/ss007/memento/GameOriginator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/memento/GameOriginator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/ss007/memento/MementoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/memento/MementoClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +126,7 @@
       <workItem from="1621134734994" duration="1239000" />
       <workItem from="1621952942774" duration="1573000" />
       <workItem from="1622338025192" duration="6170000" />
+      <workItem from="1622465912800" duration="3171000" />
     </task>
     <task id="LOCAL-00001" summary="feature：command pattern">
       <created>1619428492449</created>
@@ -274,10 +271,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619886105810" />
-    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2" timestamp="1622340497329">
+    <state x="353" y="40" width="1171" height="806" key="CommitChangelistDialog2" timestamp="1622416915619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="594" y="113" width="1171" height="807" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622340497329" />
+    <state x="353" y="40" width="1171" height="806" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622416915619" />
     <state x="2514" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022427713" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1620025790855">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -344,15 +341,15 @@
     </state>
     <state x="515" y="129" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620393662915" />
     <state x="2435" y="129" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620313781384" />
-    <state x="578" y="253" key="Vcs.Push.Dialog.v2" timestamp="1622340500144">
+    <state x="578" y="253" key="Vcs.Push.Dialog.v2" timestamp="1622417037479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="578" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622340500144" />
+    <state x="578" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622417037479" />
     <state x="2498" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620022431708" />
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1622338068908">
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1622466609011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622338068908" />
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622466609011" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620393671103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

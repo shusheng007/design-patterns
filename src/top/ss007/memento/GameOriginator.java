@@ -11,10 +11,12 @@ package top.ss007.memento;
 public class GameOriginator {
     private int currentScore;
 
+    //将需要保存的状态分装在Memento里对外提供
     public GameProgressMemento saveProcess() {
         return new GameProgressMemento(currentScore);
     }
 
+    //通过从外部接收的Memento恢复状态
     public void restoreProcess(GameProgressMemento memento) {
         currentScore = memento.getScore();
     }
