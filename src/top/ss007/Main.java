@@ -17,6 +17,7 @@ import top.ss007.singleton.SingletonClient;
 import top.ss007.state.StateClient;
 import top.ss007.strategy.StrategyClient;
 import top.ss007.template.TemplateClient;
+import top.ss007.visitor.VisitorClient;
 
 import java.util.Arrays;
 import java.util.List;
@@ -94,6 +95,9 @@ public class Main {
                         break;
                     case MEMENTO:
                         runMemento();
+                        break;
+                    case VISITOR:
+                        runVisitor();
                         break;
                     default:
                         break;
@@ -222,9 +226,16 @@ public class Main {
         stateClient.buyKeyboard();
     }
 
+    //备忘录模式
     private static void runMemento(){
         MementoClient mementoClient=new MementoClient();
         mementoClient.replayGame();
+    }
+
+    //访问者模式
+    private static void runVisitor(){
+        VisitorClient visitorClient =new VisitorClient();
+        visitorClient.startProject();
     }
     //endregion
 
@@ -250,7 +261,8 @@ public class Main {
         TEMPLATE,
         PROXY,
         STATE,
-        MEMENTO;
+        MEMENTO,
+        VISITOR;
 
         public static List<String> patterList() {
             return Arrays.stream(DesignPatternName.values()).map(new Function<DesignPatternName, String>() {
