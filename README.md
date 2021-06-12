@@ -1,4 +1,5 @@
 # design-patterns
+
 使用最浅显的示例呈现设计模式，力争让每一位程序员都看得懂，入得门...
 
 ## 如何使用此源码示例
@@ -107,6 +108,7 @@ Process finished with exit code 0
 [秒懂Java代理与动态代理模式（Proxy Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/80864854)
 
 ## 行为型（behavioral）
+
 行为型设计模式主要解决类或者对象直接互相通信的问题，共11个
 
 1. 责任链模式（Chain of responsibility）
@@ -121,6 +123,9 @@ Process finished with exit code 0
 4. 迭代器模式（Iterator）
 5. 中介者模式（Mediator）
 6. 备忘录模式（Memento）
+
+[秒懂设计模式之备忘录模式（Memento Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/117430604)
+
 7. 观察者模式（Observer）
 8. 策略模式（Strategy）
 
@@ -136,6 +141,7 @@ Process finished with exit code 0
 
 11. 访问者模式（Visitor）
  
+[秒懂设计模式之访问者模式（Visitor Pattern）](https://blog.csdn.net/ShuSheng0007/article/details/117839084)
 
 # 总结
 本篇为设计模式汇总篇，我会不断的完善补全其中没有实例的设计模式，你可以先点赞收藏起来，那样就再也不怕找不到走向卓越的路了。

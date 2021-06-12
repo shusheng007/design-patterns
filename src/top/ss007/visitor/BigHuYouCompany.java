@@ -12,7 +12,6 @@ import java.util.List;
  * @description
  */
 public class BigHuYouCompany {
-
     private List<CorporateSlave> employee= new ArrayList<>();
 
     public BigHuYouCompany() {

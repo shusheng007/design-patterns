@@ -9,6 +9,5 @@ package top.ss007.visitor;
  * @description
  */
 public interface CorporateSlave {
-
     void accept(CorporateSlaveVisitor visitor);
 }
