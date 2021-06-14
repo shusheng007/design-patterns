@@ -10,6 +10,7 @@ import top.ss007.decorator.DecoratorClient;
 import top.ss007.facade.FacadeClient;
 import top.ss007.factory.FactoryPatternService;
 import top.ss007.flyweight.FlyweightClient;
+import top.ss007.iterator.IteratorClient;
 import top.ss007.memento.MementoClient;
 import top.ss007.prototype.PrototypeClient;
 import top.ss007.proxy.ProxyClient;
@@ -98,6 +99,9 @@ public class Main {
                         break;
                     case VISITOR:
                         runVisitor();
+                        break;
+                    case ITERATOR:
+                        runIterator();
                         break;
                     default:
                         break;
@@ -232,6 +236,12 @@ public class Main {
         mementoClient.replayGame();
     }
 
+    //迭代器模式
+    private static void runIterator(){
+        IteratorClient client = new IteratorClient();
+        client.checkAttendance();
+    }
+
     //访问者模式
     private static void runVisitor(){
         VisitorClient visitorClient =new VisitorClient();
@@ -262,6 +272,7 @@ public class Main {
         PROXY,
         STATE,
         MEMENTO,
+        ITERATOR,
         VISITOR;
 
         public static List<String> patterList() {
