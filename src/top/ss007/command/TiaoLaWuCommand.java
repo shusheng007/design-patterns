@@ -1,10 +1,10 @@
 package top.ss007.command;
 
 public class TiaoLaWuCommand implements Command {
-    private YangMiReceiver daMiMi;
+    private MiMiReceiver daMiMi;
     private String duration;//跳舞的时长
 
-    public TiaoLaWuCommand(YangMiReceiver daMiMi, String duration) {
+    public TiaoLaWuCommand(MiMiReceiver daMiMi, String duration) {
         this.daMiMi = daMiMi;
         this.duration = duration;
     }

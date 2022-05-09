@@ -20,10 +20,10 @@ public class RobotInvoker {
         sexRobotCommands.add(command);
     }
 
-    //执行脱衣系列命令
+    //执行系列命令
     public void executeCommand() {
-        for (Command tuoYiCommand : sexRobotCommands) {
-            tuoYiCommand.execute();
+        for (Command command : sexRobotCommands) {
+            command.execute();
         }
     }
 }
