@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="">
+    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：命令模式修改的更加文明一些">
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/observer/Dog2WangObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/observer/GreenTeaBitchSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/observer/ObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/observer/ShangGuanSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/observer/TianDogObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/top/ss007/observer/YinDangObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/DogWang2Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/DogWang2Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/FanBingBingReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/BingBingReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/RobotInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/RobotInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/TiaoLaWuCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/TiaoLaWuCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/TuoKuZiCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/PlayPianoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/TuoXiongZhaoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/SingSongCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/command/YangMiReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/command/MiMiReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/ss007/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -137,7 +148,9 @@
       <workItem from="1622867918263" duration="6658000" />
       <workItem from="1623460873744" duration="8540000" />
       <workItem from="1623635356224" duration="5862000" />
-      <workItem from="1652112447312" duration="766000" />
+      <workItem from="1652112447312" duration="2607000" />
+      <workItem from="1653728439454" duration="338000" />
+      <workItem from="1654336267498" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="feature：command pattern">
       <created>1619428492449</created>
@@ -272,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623492947300</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feature：命令模式修改的更加文明一些">
+      <created>1652113305733</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652113305733</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +308,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -302,7 +323,8 @@
     <MESSAGE value="feature：add singleton pattern" />
     <MESSAGE value="feature：add memento pattern" />
     <MESSAGE value="feature：add vistor pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature：add vistor pattern" />
+    <MESSAGE value="feature：命令模式修改的更加文明一些" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature：命令模式修改的更加文明一些" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

@@ -12,6 +12,7 @@ import top.ss007.factory.FactoryPatternService;
 import top.ss007.flyweight.FlyweightClient;
 import top.ss007.iterator.IteratorClient;
 import top.ss007.memento.MementoClient;
+import top.ss007.observer.ObserverClient;
 import top.ss007.prototype.PrototypeClient;
 import top.ss007.proxy.ProxyClient;
 import top.ss007.singleton.SingletonClient;
@@ -23,7 +24,6 @@ import top.ss007.visitor.VisitorClient;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -102,6 +102,9 @@ public class Main {
                         break;
                     case ITERATOR:
                         runIterator();
+                        break;
+                    case OBSERVER:
+                        runObserver();
                         break;
                     default:
                         break;
@@ -247,6 +250,12 @@ public class Main {
         VisitorClient visitorClient =new VisitorClient();
         visitorClient.startProject();
     }
+
+    //观察者模式
+    private static void runObserver(){
+        ObserverClient client = new ObserverClient();
+        client.sendThink();
+    }
     //endregion
 
 
@@ -273,15 +282,13 @@ public class Main {
         STATE,
         MEMENTO,
         ITERATOR,
-        VISITOR;
+        VISITOR,
+        OBSERVER;
 
         public static List<String> patterList() {
-            return Arrays.stream(DesignPatternName.values()).map(new Function<DesignPatternName, String>() {
-                @Override
-                public String apply(DesignPatternName designPatternName) {
-                    return designPatternName.name();
-                }
-            }).collect(Collectors.toList());
+            return Arrays.stream(DesignPatternName.values())
+                    .map(Enum::name)
+                    .collect(Collectors.toList());
         }
     }
 
