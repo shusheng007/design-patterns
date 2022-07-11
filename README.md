@@ -140,7 +140,7 @@ Process finished with exit code 0
 
 7. 观察者模式（Observer）
 
-敬请期待
+[秒懂设计模式之观察者模式（Observer Pattern）](http://shusheng007.top/2022/07/12/1-13/)
 
 8. 策略模式（Strategy）
 
