@@ -164,4 +164,4 @@ Process finished with exit code 0
 
 - 个人博客：[ShuSheng007个人博客](http://shusheng007.top)
 - CSDN博客：[ShuSheng007CSDN博客](https://blog.csdn.net/ShuSheng0007)
-- 微信： ![微信](http://shusheng007.top/wp-content/uploads/2022/10/work_wechat_ewm.jpg  =100)
+- 微信： ![微信](https://app.shusheng007.top/socialmedia/wechat_sj.png)
