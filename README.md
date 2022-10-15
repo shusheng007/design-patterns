@@ -156,3 +156,12 @@ Process finished with exit code 0
 
 # 总结
 本篇为设计模式汇总篇，我会不断的完善其中没有实例的设计模式，你可以先点赞收藏起来，那样就再也不怕找不到走向卓越的路了。最后请抬起你的小手手随手点个小星星...
+
+
+# 联系
+
+你可以从下面找到我，希望我们可以成为兴趣相投的好朋友:
+
+个人博客：[ShuSheng007个人博客](http://shusheng007.top)
+CSDN博客：[ShuSheng007CSDN博客](https://blog.csdn.net/ShuSheng0007)
+微信： ![微信]()

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：增加观察者模式">
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/run/DesignPatternName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/ss007/run/PatternExecutor.java" afterDir="false" />
+    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：整理程序结构">
+      <change afterPath="$PROJECT_DIR$/document/work_wechat_ewm.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/ss007/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/ss007/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +36,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/document" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study\TestProjects\design-patterns\document" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/document" />
       <recent name="E:\Study\TestProjects\design-patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -51,9 +54,6 @@
       <recent name="top.ss007.flyweight" />
       <recent name="top.ss007.composite" />
       <recent name="top.ss007.state" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Study\TestProjects\design-patterns\document" />
     </key>
   </component>
   <component name="RunManager">
@@ -149,7 +149,7 @@
       <workItem from="1653728439454" duration="338000" />
       <workItem from="1654336267498" duration="5486000" />
       <workItem from="1665805037492" duration="570000" />
-      <workItem from="1665805631710" duration="1525000" />
+      <workItem from="1665805631710" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="feature：command pattern">
       <created>1619428492449</created>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654355077341</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feature：整理程序结构">
+      <created>1665807259693</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665807259693</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +338,8 @@
     <MESSAGE value="feature：add vistor pattern" />
     <MESSAGE value="feature：命令模式修改的更加文明一些" />
     <MESSAGE value="feature：增加观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature：增加观察者模式" />
+    <MESSAGE value="feature：整理程序结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature：整理程序结构" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
