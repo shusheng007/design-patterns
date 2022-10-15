@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：整理程序结构">
-      <change afterPath="$PROJECT_DIR$/document/work_wechat_ewm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0adb30fb-3ed4-48af-b13e-baf01711b08a" name="Default Changelist" comment="feature：整理程序结构" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +145,7 @@
       <workItem from="1653728439454" duration="338000" />
       <workItem from="1654336267498" duration="5486000" />
       <workItem from="1665805037492" duration="570000" />
-      <workItem from="1665805631710" duration="2362000" />
+      <workItem from="1665805631710" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="feature：command pattern">
       <created>1619428492449</created>
@@ -305,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665807259693</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feature：整理程序结构">
+      <created>1665808214001</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665808214001</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
