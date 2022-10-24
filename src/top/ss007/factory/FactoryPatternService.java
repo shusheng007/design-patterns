@@ -23,7 +23,7 @@ public class FactoryPatternService {
     public void makePcUseAbstractFactory(){
         AbstractFactory appleFactory = new AppleFactory();
         appleFactory.makeComputer().setOperationSystem();
-        appleFactory.makeMobilePhoto().setOperationSystem();
+        appleFactory.makeMobilePhone().setOperationSystem();
     }
 
 }

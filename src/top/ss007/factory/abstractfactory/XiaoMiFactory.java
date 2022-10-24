@@ -14,7 +14,7 @@ public class XiaoMiFactory implements AbstractFactory {
     }
 
     @Override
-    public MobilePhoto makeMobilePhoto() {
-        return new MiPhoto();
+    public MobilePhone makeMobilePhone() {
+        return new MiPhone();
     }
 }

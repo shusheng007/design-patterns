@@ -11,5 +11,5 @@ import top.ss007.factory.Computer;
 public interface AbstractFactory {
     Computer makeComputer();
 
-    MobilePhoto makeMobilePhoto();
+    MobilePhone makeMobilePhone();
 }

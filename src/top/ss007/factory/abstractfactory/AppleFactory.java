@@ -14,7 +14,7 @@ public class AppleFactory implements AbstractFactory {
     }
 
     @Override
-    public MobilePhoto makeMobilePhoto() {
-        return new IPhoto();
+    public MobilePhone makeMobilePhone() {
+        return new IPhone();
     }
 }
