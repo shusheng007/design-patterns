@@ -41,70 +41,71 @@ Process finished with exit code 0
 
 # 分类
 
+
 设计模式按照其要解决的问题被分为3类：
 
 ## 创建型（creational）
 
 顾名思义，主要解决如何灵活创建对象或者类的问题，共**5**个。
+1. 工厂方法模式（Factory Method）
 
-1.  抽象工厂模式（Abstract Factory）
+[秒懂设计模式之工厂方法模式（Factory Method Pattern）]( https://shusheng007.top/2020/02/16/factory-method-pattern/)
 
-[秒懂设计模式之抽象工厂模式（Abstract Factory Pattern）]( http://shusheng007.top/2020/02/16/002/)
+2.  抽象工厂模式（Abstract Factory）
 
-2. 工厂方法模式（Factory Method）
+[秒懂设计模式之抽象工厂模式（Abstract Factory Pattern）]( https://shusheng007.top/2020/02/16/abstract-factory-pattern/)
 
-[秒懂设计模式之工厂方法模式（Factory Method Pattern）]( http://shusheng007.top/2020/02/16/010/)
 
 3. 构建者模式（Builder）
 
-[秒懂设计模式之建造者模式（Builder pattern）](http://shusheng007.top/2020/02/16/003/)
+[秒懂设计模式之建造者模式（Builder pattern）](https://shusheng007.top/2020/02/16/builder-pattern/)
 
 4. 单例模式（Singleton）
 
-[秒懂设计模式之单例模式（Singleton Pattern）]( http://shusheng007.top/2021/09/08/015/)
+[秒懂设计模式之单例模式（Singleton Pattern）]( https://shusheng007.top/2021/09/08/singleton-pattern/)
 
 5.  原型模式（Prototype）
 
-[秒懂设计模式之原型模式（Prototype Pattern)](http://shusheng007.top/2021/09/08/017/)
+[秒懂设计模式之原型模式（Prototype Pattern)](https://shusheng007.top/2021/09/08/prototype-pattern/)
 
 
 另外还有一个简单工厂模式，其虽然不在GOF23种设计模式之中，但是应用也很广泛：
 
-[秒懂设计模式之简单工厂模式（Simple Factory Pattern）](http://shusheng007.top/2020/02/16/009/)
+[秒懂设计模式之简单工厂模式（Simple Factory Pattern）](https://shusheng007.top/2020/02/16/simple-factory-pattern/)
 
 
 
 ## 结构型（structural）
 
-结构型设计模式主要用于将类或对象进行组合从而构建灵活而高效的程序结构，共**7**个。
+结构型设计模式主要用于将类或对象进行组合从而构建灵活而高效的结构，共**7**个。
 
 1. 适配器模式（Adapter）
 
-[秒懂设计模式之适配器模式（Adapter Pattern）](http://shusheng007.top/2021/09/08/018/)
+[秒懂设计模式之适配器模式（Adapter Pattern）](https://shusheng007.top/2021/09/08/adapter-pattern/)
 
 2. 桥接模式（Bridge）
 
-[秒懂设计模式之桥接模式（Bridge Pattern）](http://shusheng007.top/2020/02/16/004/)
+[秒懂设计模式之桥接模式（Bridge Pattern）](https://shusheng007.top/2020/02/16/bridge-pattern/)
 
 3. 组合模式（Composite）
 
-[秒懂设计模式之组合模式（Composite Pattern）]( http://shusheng007.top/2021/09/08/020/)
+[秒懂设计模式之组合模式（Composite Pattern）](https://shusheng007.top/2021/09/08/composite-pattern)
 
 4. 装饰者模式（Decorator）
 
-[秒懂设计模式之装饰者模式（Decorator Pattern）](http://shusheng007.top/2020/02/16/005/)
+[秒懂设计模式之装饰者模式（Decorator Pattern）](https://shusheng007.top/2020/02/16/decorator-pattern/)
 
 5. 外观模式（Facade）
 
-[秒懂设计模式之外观模式（Facade Pattern）]( http://shusheng007.top/2021/09/08/021/)
+[秒懂设计模式之外观模式（Facade Pattern）](https://shusheng007.top/2021/09/08/facade-pattern/)
 
 6. 享元模式（Flyweight）
 
-[秒懂设计模式之享元模式（Flyweight Pattern）]( http://shusheng007.top/2021/09/08/022/)
+[秒懂设计模式之享元模式（Flyweight Pattern）](https://shusheng007.top/2021/09/08/flyweight-pattern/)
 
 7. 代理模式（Proxy）
 
-[秒懂Java代理与动态代理模式（Proxy Pattern）]( http://shusheng007.top/2021/09/08/025/)
+[秒懂Java代理与动态代理模式（Proxy Pattern）](https://shusheng007.top/2021/09/08/proxy-pattern/)
 
 ## 行为型（behavioral）
 
@@ -112,47 +113,47 @@ Process finished with exit code 0
 
 1. 责任链模式（Chain of responsibility）
 
-[秒懂设计模式之责任链模式（Chain of responsibility）]( http://shusheng007.top/2021/09/08/026/)
+[秒懂设计模式之责任链模式（Chain of responsibility）](  https://shusheng007.top/2021/09/08/chain-of-responsibility-pattern/ )
 
 2. 命令模式（Command）
 
-[秒懂设计模式之命令模式（Command Pattern）]( http://shusheng007.top/2021/09/08/027/)
+[秒懂设计模式之命令模式（Command Pattern）](  https://shusheng007.top/2021/09/08/command-pattern/)
 
 3. 解释器模式（Interpreter）
 
-敬请期待...
+敬请期待
 
 4. 迭代器模式（Iterator）
 
-[秒懂设计模式之迭代器模式（Iterator Pattern）]( http://shusheng007.top/2021/09/08/030/)
+[秒懂设计模式之迭代器模式（Iterator Pattern）]( https://shusheng007.top/2021/09/08/iterator-pattern/)
 
 5. 中介者模式（Mediator）
 
-敬请期待...
+敬请期待
 
 6. 备忘录模式（Memento）
 
-[秒懂设计模式之备忘录模式（Memento Pattern）]( http://shusheng007.top/2021/09/08/031/)
+[秒懂设计模式之备忘录模式（Memento Pattern）](  https://shusheng007.top/2021/09/08/memento-pattern/)
 
 7. 观察者模式（Observer）
 
-[秒懂设计模式之观察者模式（Observer Pattern）](http://shusheng007.top/2022/07/12/1-13/)
+[秒懂设计模式之观察者模式（Observer Pattern）](https://shusheng007.top/2022/07/12/observer-pattern/)
 
 8. 策略模式（Strategy）
 
-[秒懂设计模式之策略模式（Strategy Pattern）](http://shusheng007.top/2020/02/16/013/)
+[秒懂设计模式之策略模式（Strategy Pattern）](https://shusheng007.top/2020/02/16/strategy-pattern/)
 
 9. 状态模式（State）
 
-[秒懂设计模式之状态模式（State Pattern）]( http://shusheng007.top/2021/09/08/032/)
+[秒懂设计模式之状态模式（State Pattern）]( https://shusheng007.top/2021/09/08/state-pattern/)
 
 10. 模板方法模式（Template method）
 
-[秒懂设计模式之模板方法模式（Template Method Pattern）](http://shusheng007.top/2020/02/16/006/)
+[秒懂设计模式之模板方法模式（Template Method Pattern）](https://shusheng007.top/2020/02/16/template-method-pattern/)
 
 11. 访问者模式（Visitor）
 
-[秒懂设计模式之访问者模式（Visitor Pattern）]( http://shusheng007.top/2021/09/08/033/)
+[秒懂设计模式之访问者模式（Visitor Pattern）]( https://shusheng007.top/2021/09/08/visitor-pattern/)
 
 # 总结
 本篇为设计模式汇总篇，我会不断的完善其中没有实例的设计模式，你可以先点赞收藏起来，那样就再也不怕找不到走向卓越的路了。最后请抬起你的小手手随手点个小星星...
