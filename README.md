@@ -39,7 +39,6 @@ Process finished with exit code 0
 
 从定义可以看出，设计模式是一套语言无关的最佳设计实践准则，而不是什么真理定理，所以不可盲从。本文先期主要讲述GOF的面向对象的23种设计模式，由于本人惯用Java编程语言，所以代码示例均为Java实现。
 
-https://blog.shusheng007.top/archives
 
 # 分类
 
